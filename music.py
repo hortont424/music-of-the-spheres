@@ -8,10 +8,10 @@ from progressbar import ProgressBar, Bar, ETA
 sampleRate = 44100
 framesPerStep = 128
 duration = 10
-worldScale = 30
-bodyCount = 5
+worldScale = 5
+bodyCount = 10
 freqScale = (50, 2000)
-G = 0.001
+G = 0.00001
 
 class Body(object):
     def __init__(self, x, y, z, m, f):
